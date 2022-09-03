@@ -1,0 +1,172 @@
+body {
+  font-family: "PT Serif", serif;
+}
+
+.bg-danger {
+  padding: 20px;
+  background-color: rgb(245, 56, 23);
+}
+
+.border-bottom {
+  border-bottom: 1px solid black;
+}
+
+.btn:hover {
+  background-color: rgb(243, 233, 231);
+}
+
+.bg-dark {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.border-top {
+  margin-top: 10px;
+  border-top: 1px solid white;
+}
+
+.image {
+  margin-top: 5px;
+}
+
+.image img {
+  border-radius: 30px;
+}
+
+.bg-cream {
+  background-color: #ffd1b9;
+}
+
+.text-button {
+  padding-top: 300px;
+}
+
+.btn-two {
+  background-color: black;
+  color: white;
+  width: 150px;
+  border-radius: 50px;
+}
+
+.btn-two:hover {
+  background-color: rgb(46, 41, 41);
+}
+
+.cream-two {
+  background-color: #ffd1b9;
+  border-bottom: 1px solid black;
+}
+
+.text {
+  padding: 40px;
+  border-right: 1px solid black;
+}
+
+.boxes {
+  border-top: 1px solid black;
+}
+
+.bg-green {
+  height: 500px;
+  background-color: rgb(5, 161, 5);
+  background-image: url("../cubes.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: 50% 0%;
+  position: relative;
+  z-index: 2;
+  align-items: flex-start;
+}
+.image-green {
+  padding: 60px;
+  color: white;
+}
+
+.learn-btn {
+  color: white;
+  background: black;
+  width: 150px;
+  border-radius: 35px;
+  height: 40px;
+}
+
+.sss {
+  background-color: black;
+  color: white;
+  padding: 50px;
+}
+
+.question-btn {
+  background-color: black;
+  color: white;
+  text-align: left;
+}
+
+.card {
+  background-color: black;
+  color: white;
+}
+
+.row-border {
+  border-bottom: 1px solid white;
+  padding: 30px;
+}
+
+.started {
+  margin: 50px;
+  text-align: center;
+}
+
+.btn-dark {
+  background-color: white;
+  width: 200px;
+  color: black;
+  border-radius: 40px;
+  margin-left: 10px;
+}
+.btn-dark:hover {
+  background-color: black;
+  color: white;
+}
+
+.footer {
+  padding: 30px;
+}
+
+.footer a {
+  color: grey;
+  font-size: 10px;
+  padding: 10px;
+}
+
+.row-border a:visited {
+  color: white;
+}
+
+.sss .row-border a:hover {
+  color: whitesmoke;
+}
+
+@media screen and (max-width: 991px) {
+  .women {
+    padding-top: 46px;
+    width: 100%;
+  }
+  .text-button {
+    padding-top: 10px;
+  }
+  .footer {
+    text-align: center;
+  }
+  .footer-head {
+    padding: 20px;
+  }
+
+  .sss h1 h3 {
+    size: 10px;
+  }
+
+  .started {
+  }
+}
